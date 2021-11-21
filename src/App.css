@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.custom-editor{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid rgb(100, 100, 100); */
+  min-height: fit-content;
+  /* overflow-y: scroll; */
+}
+.editor-box{
+  height: 100px;
+  margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.editor-input{
+  border-top: 0px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  border-right: 0px;
+  border-left: 0px;
+  width: 100%;
+  height: fit-content;
+  outline-width: 0px;
+  font-size: 33px;
+  margin-left: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add-more-button{
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 22px;
+  /* padding: 2px; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-button-options{
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 22px;
+  padding: 5px;
+  margin-left: 5px;
 }
